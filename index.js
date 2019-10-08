@@ -26,7 +26,7 @@ const getApiUrl = (address) => {
 	return `${API_URL}?key=${API_KEY}&address=${encodeURI(address)}`;
 }
 
-const address = 'Alto de Coutos - Salvador, BA';
+const address = 'Rua Pedro Lopes, Praia Grande';
 
 (async () => {
   const apiUrl = getApiUrl(address);
