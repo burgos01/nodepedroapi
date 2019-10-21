@@ -39,4 +39,5 @@ const address = 'Rua Pedro Lopes, Praia Grande';
   }
   
   console.log(data.results[0].geometry.location);
+  console.log(data.results[0].formatted_address);
 })();
